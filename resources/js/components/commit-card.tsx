@@ -265,6 +265,7 @@ export function CommitCard({
                                 <UserPreview
                                     user={commit.user}
                                     anchor={nodeRef}
+                                    showLiveStream={false}
                                     className="flex min-w-0 items-baseline gap-1.5"
                                     onHoverChange={onAuthorHover}
                                 >
